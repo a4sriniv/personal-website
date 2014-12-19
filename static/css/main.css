@@ -21,6 +21,14 @@
     margin: 20px;
 }
 
+.waterloo a:link {
+    color: gold;
+}
+
+.waterloo a:visited {
+    color: gold;
+}
+
 .intro h1 {
     font-family: "Bitter", sans-serif;
     font-size: 24px;
