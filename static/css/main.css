@@ -1,5 +1,4 @@
 .intro {
-    /*background-image: url(img/intro_bg.jpg);*/
     background-color: #000;
     border-bottom: 2px solid grey;
     text-align: center
@@ -52,11 +51,11 @@
 }
 
 .university h1 {
-    font-size: 20px;
-    
+    font-size: 20px;    
     color: #000;
     font-family: 'Bitter', sans-serif;
 }
+
 .university .thumbnail {
     background-color: transparent;
     border: none;
@@ -68,7 +67,8 @@
 }
 
 .university .bb-logo {
-    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .companies {
