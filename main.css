@@ -9,6 +9,10 @@
     color: #bfbfbf;
 }
 
+.intro .icons a:visited {
+    color: #bfbfbf;
+}
+
 .intro .icons a:hover {
     color: #efefef;
 }
@@ -23,16 +27,37 @@
     color: #ebebeb;
 }
 
+.intro p {
+    font-family: "Bitter", sans-serif;
+    font-size: 20px;
+    color: #ebebeb;
+}
+
 .intro img {
     margin: 20px;
+    border: 2px solid #aaaaaa;
 }
 
 .university {
-    background-image: url(img/uwaterloo.jpg);
+    padding: 20px;
+    background-color: #ffffff;
 }
 
 .university h1 {
-    font-size: 18px;
-    color: #ffffff;
+    font-size: 20px;
+    
+    color: #000;
     font-family: 'Bitter', sans-serif;
+}
+.university .thumbnail {
+    background-color: transparent;
+    border: none;
+}
+.university img {
+    background-color: transparent;
+    padding: 10px
+}
+
+.companies {
+    margin: 20px;
 }
