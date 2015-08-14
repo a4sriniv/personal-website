@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+set -e
+
+STYL_DIR=static/styl/
+BUILD_DIR=static/build/css/
+
+[ -d $BUILD_DIR ] || mkdir -p $BUILD_DIR
+stylus $STYL_DIR -o $BUILD_DIR
+
+appcfg.py --oauth2 -A adithya-srinivasan update .
