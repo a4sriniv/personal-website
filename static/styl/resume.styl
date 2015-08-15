@@ -3,11 +3,17 @@
 
   a
     color #13078f
-    // border-bottom: 1px dashed #999;
 
   .section
-    margin-left 16vw
-    margin-right 16vw
+    @media (min-width: 512px) {
+      margin-left 16vw
+      margin-right 16vw
+    }
+    @media (max-width: 512px) {
+      margin-left 24px
+      margin-right 24px
+    }
+
     margin-top 2vw
     margin-bottom 2vw
 

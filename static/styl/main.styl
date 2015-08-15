@@ -10,8 +10,14 @@
 
   .blurb
     font-weight lighter
-    font-size 30px
-    margin 5vw 10vw
+    @media (min-width:512px) {
+      font-size 30px
+      margin 5vw 10vw
+    }
+    @media (max-width:512px) {
+      font-size 24px
+      margin 5vw 5vw
+    }
     text-align center
 
     a
@@ -38,7 +44,12 @@
       flex: 1;
 
     a
-      font-size 72px
+      @media (min-width: 512px) {
+        font-size 72px
+      }
+      @media (max-width: 512px) {
+        font-size 52px
+      }
       display inherit
       text-align center
       text-decoration none
