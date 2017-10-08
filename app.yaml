@@ -9,3 +9,4 @@ handlers:
   static_dir: static
 - url: /.*
   script: app.application
+  secure: always

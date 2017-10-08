@@ -1,4 +1,4 @@
-[adithya-srinivasan.com](http://www.adithya-srinivasan.com)
+[whoisadithya.com](https://whoisadithya.com)
 ================
 
 Adithya Srinivasan's personal website.
