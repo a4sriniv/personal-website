@@ -7,5 +7,4 @@ BUILD_DIR=static/build/css/
 
 [ -d $BUILD_DIR ] || mkdir -p $BUILD_DIR
 stylus $STYL_DIR -o $BUILD_DIR
-
-gcloud app deploy app.yaml
+dev_appserver.py app.yaml
